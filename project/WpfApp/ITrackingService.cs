@@ -7,7 +7,7 @@ namespace WpfApp
     public interface ITrackingService
     {
 
-        [Post("/api/values/authenticate")]
+        [Post("/api/login/authenticate")]
         IObservable<string> Authenticate([Body] JObject user);
 
 

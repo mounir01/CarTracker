@@ -27,7 +27,7 @@ namespace WpfApp
         }
 
         private static string Token;
-        private const string ServerUri = "http://localhost:54587";
+        private const string ServerUri = "https://localhost:5001";
         private void LogIn()
         {
             try
